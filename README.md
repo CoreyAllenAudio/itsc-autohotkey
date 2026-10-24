@@ -25,7 +25,7 @@ so you can clone it and adapt it to your own environment.
 1. Install [AutoHotkey v2](https://www.autohotkey.com/).
 2. Clone the repo:
    ```powershell
-   git clone https://github.com/CoreyAllenAudio/<repo-name>.git
+   git clone https://github.com/CoreyAllenAudio/itsc-autohotkey.git
    ```
 3. Double-click `Main.ahk` (or right-click → **Run script**). An **H** icon appears in the system
    tray while the script is running.
@@ -55,18 +55,18 @@ loads `lib/Greetings.ahk` without a path.
 
 ## Libraries
 
-| Library | Purpose | Status |
-|---|---|---|
-| `Greetings` | Minimal example library; verifies your setup | Available |
-| `NetworkTools` | Hotkeys for common networking commands (ping, ipconfig, etc.) | Planned |
-| `OpenTools` | Launch your own set of IT applications | Planned |
-| `ClipboardTools` | Copy and paste automation | Planned |
-| `InDevelopment` | Experimental functions — **use at your own risk** | Planned |
+| Library          | Purpose                                                       | Status    |
+| ---------------- | ------------------------------------------------------------- | --------- |
+| `Greetings`      | Minimal example library; verifies your setup                  | Available |
+| `NetworkTools`   | Hotkeys for common networking commands (ping, ipconfig, etc.) | Planned   |
+| `OpenTools`      | Launch your own set of IT applications                        | Planned   |
+| `ClipboardTools` | Copy and paste automation                                     | Planned   |
+| `InDevelopment`  | Experimental functions — **use at your own risk**             | Planned   |
 
 ## Hotkeys
 
-| Hotkey | Action | Library |
-|---|---|---|
+| Hotkey       | Action               | Library     |
+| ------------ | -------------------- | ----------- |
 | `Ctrl+Alt+1` | Show a test greeting | `Greetings` |
 
 ## Conventions
