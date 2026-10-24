@@ -1,0 +1,9 @@
+# Ignore all files in the folder
+.vscode/*
+
+# Except for the specified file
+!.vscode/settings.json
+!.vscode/extensions.json
+
+# Ignore all files with the .exe extension
+*.exe
