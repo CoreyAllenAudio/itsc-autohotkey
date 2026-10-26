@@ -2,22 +2,22 @@
 
 ; Use Window Spy to get the correct CMD/Terminal name.
 OpenTerminal(command) {
-    Run ("cmd.exe")
-    WinWaitActive("ahk_exe WindowsTerminal.exe")
+    Run("cmd.exe")
+    WinWaitActive("ahk_exe cmd.exe")
     SendInput(command)
 }
 
 ; CMD Ping User. Checking whether a device responds to ICMP.
 PingUser() {
-    OpenTerminal("ping " . A_Clipboard)
+    OpenTerminal("ping ")
 }
 
 ; CMD NSLookup User. Investigating DNS resolution.
 NSLookUpUser() {
-    OpenTerminal("nslookup " . A_Clipboard)
+    OpenTerminal("nslookup ")
 }
 
 ; CMD Tracert User. Investigating the route without waiting for reverse DNS lookups.
 TracertUser() {
-    OpenTerminal("tracert -d " . A_Clipboard)
+    OpenTerminal("tracert -d ")
 }
