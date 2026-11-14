@@ -1,5 +1,6 @@
-# Ignore all files in the folder
+# Ignore all files or folders
 .vscode/*
+config.ini
 
 # Except for the specified file
 !.vscode/settings.json
